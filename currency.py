@@ -5,16 +5,16 @@ from dateutil import parser
 DATE_FORMAT = '%Y-%m-%d'
 
 try:
-    currency = sys.argv[1]
+    currency = sys.argv[2]
 except IndexError:
-    currency = input('Please give a currency: ')
+    currency = input('Please enter a currency: ')
 
 currency = currency.upper()
 
 try:
-    date_as_str = sys.argv[2]
+    date_as_str = sys.argv[3]
 except IndexError:
-    date_as_str = input('Please give a date: ')
+    date_as_str = input('Please provide the date: ')
 
 
 try:
