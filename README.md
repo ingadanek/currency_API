@@ -16,7 +16,11 @@ Using one's preferred code editor (e.g. VSCode), user enters keyword 'python' an
 Option 3:
 Using one's preferred code editor (e.g. VSCode), user enters keyword 'python' and filepath followed by url, currency and date (as string if it contains white spaces).
 
-e.g. `python projects/WebScraper/extract_data.py "https://leroymerlin.co.za/building-materials/construction-equipment/ladders" "//*[@id='maincontent']/div[4]/div[1]/div[9]/ol/li/div[2]/strong/a"`
+e.g. `python projects/API_NBP/currency.py "http://api.nbp.pl/en.html"`
+
+e.g. `python projects/API_NBP/currency.py "http://api.nbp.pl/en.html" USD`
+
+e.g. `python projects/API_NBP/currency.py "http://api.nbp.pl/en.html" USD '20 Oct 2021'`
 
 
 ## Code and Resources Used
